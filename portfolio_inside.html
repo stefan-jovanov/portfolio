@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./portfolio_inside.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    </head>
+<body>
+     <i id="datenema" class="fa-solid fa-circle-user" class="onclick_button" onclick="toggleMenu()"></i>
+<p class="nav_p">HOME</p>
+           
+        <div id="popupMenu" class="left_side">
+        
+            <img class="profile_picture" src="./1000015384.webp">
+        <p class="name">Stefan Jovanov</p>
+        <p class="profile_etc">Full-stack Web Developer</p>
+            <div class="left_side_down">
+                <div class="age_city_residence">
+                    <div class="age">
+                        <p>Age: </p>
+                        <p>17</p> 
+                    </div>
+                    <div class="city">
+                        <p>City: </p>
+                        <p>Veles</p>
+                    </div>
+                    <div class="residence">
+                        <p>Residence: </p>
+                        <p>Macedonia</p>
+                    </div>
+                </div>
+            <hr class="line">
+            <div class="circles">
+                <div class="html">
+                    <div class="html_circle"><p class="html_value">100%</p></div>
+                    <p class="html_p">HTML</p>
+                </div>
+                <div class="css">
+                    <div class="css_circle"><p class="css_value">100%</p></div>
+                    <p class="css_p">CSS</p>
+                </div>
+                <div class="javascript">
+                    <div class="javascript_circle"><p class="javascript_value">70%</p></div>
+                    <p class="javascript_p">JavaScript</p>
+                </div>
+                <div class="php">
+                    <div class="php_circle"><p class="php_value">40%</p></div>
+                    <p class="php_p">PHP</p>
+                </div>
+           
+            </div>
+         </div>
+    </div>
+    <div class="center_right_side">
+        <p class="projects_p">My projects</p>
+         <div class="centering">
+    <a class="home_btn" href="./porfolio.html">RETURN TO<br> HOME</a>
+        </div>
+        <div class="flex">
+        <div class="project">
+            <img class="project_image" src="./cc.PNG">
+            <p class="project_text1">   Simple shoes shop</p>
+           
+        </div>
+        <div class="project">
+            <img class="project_image" src="./Capturebv.png">
+            <p class="project_text1 plus">Trading journal</p>
+        </div>
+         <div class="project lower">
+            <img class="project_image" src="./hj.PNG">
+            <p class="project_text1 plus">Hair salon booking</p>
+        </div>
+    </div>
+    </div>
+
+    
+    <p class="endot">More projects coming XD</p>
+</body>
+</html>
+
+<script>
+    
+    function toggleMenu() {
+  var menu = document.getElementById("popupMenu");
+  menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+</script>
