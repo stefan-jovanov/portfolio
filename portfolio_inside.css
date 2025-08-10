@@ -333,7 +333,7 @@ body::-webkit-scrollbar {
         z-index: 15;
     }
     .left_side {
-        display: none;
+        display: none;width: 34%;
     }
     #datenema {
         display: flex;
@@ -397,171 +397,254 @@ body::-webkit-scrollbar {
         gap: 1rem;
       grid-template-columns: repeat(3, 1fr);
     }
-   .profile_picture {
-    width: 10rem;
-   }
-   .name {
-    font-size: 2rem;
-   }
-   .profile_etc {
-    font-size: 1.8rem;
-   }
-   .age {
-    font-size: 1.8rem;
-    gap: 15rem;
-   }
-   .city {
-    gap: 13rem;
-    font-size: 1.8rem;
-   }
-   .residence {
-    gap: 5rem;
-    font-size: 1.8rem;
-   }
-   .html {
-    margin-top: 0;
-   }
-      .css {
-    margin-top: 0;
-   }
-      .javascript {
-    margin-top: 0;
-   }
-   .html_circle {
-    width: 5.5rem;
-    height: 5.5rem;
-   }
-   .css_circle {
-    width: 5.5rem;
-    height: 5.5rem;
-   }
-   .javascript_circle {
-    width: 5.5rem;
-    height: 5.5rem;
-   }
-   .php_circle {
-    width: 5.5rem;
-    height: 5.5rem;
-   }
-   .html_value {
-    font-size: 1.85em;
-   }
-    .css_value {
-    font-size: 1.85em;
-   }
-    .javascript_value {
-    font-size: 2em;
-   }
-    .php_value {
-    font-size: 2em;
-   }
-   .html_p {
-    font-size: 2rem;
-   }
-   .css_p {
-    font-size: 2.05rem;
-   }
-   .javascript_p {
-    font-size: 1.95rem;
-   }
-   .php_p {
-    font-size: 2.05rem;
-   }
-   .age_city_residence {
-    margin-top: 0;
-   }
-   .line {
-    margin-top: 0;
+    .profile_picture {
+    width: 8.5rem;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    border-radius: 100%;
+    margin-top: 2rem;
+}
+.name {
+    color: #ddf1dd;
+    font-size: 1.7rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.profile_etc {
+    color: #ddf1dd;
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
+}
+.age {
+    font-size: 1.3rem;
+    display: flex;
+    gap: 12rem;
     
-   }
-  .flex {
-    margin: 0;
+}
+.city {
+    font-size: 1.3rem;
+    margin-top: -2rem;
+    display: flex;
+    gap: 10rem;
+}
+.residence {
+    font-size: 1.3rem;
+    display: flex;
+    gap:4rem;
+    margin-top: -2rem;
+}
+.age_city_residence {
+   position: relative;
+   margin-top: -0.7rem;
+    color: #ddf1dd;
+}
+.line {
+  background-color: #ddf1ddc4;
+  color: #ddf1ddc4;;
+  margin-top: -0.5rem;
+  border-color: #ddf1ddc9;
+  width: 83%;
+}
+.html_circle {
+    background-color: transparent;
+    border-color: #ddd7c5;
+    border-style: solid;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+   
+    border-radius: 100%;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+
+}
+.html_value { 
+    color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 50%;
+    position: relative;
+    transform: translateY(-140%);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.html {
+    text-align: center;
+    margin-top: -0.7rem;
     justify-content: center;
-    margin-left: -15%;
+    justify-items: center;
+}
+.css {margin-top: -0.7rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.javascript {margin-top: -0.7rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+.php {
+    text-align: center;
+    margin-top: -2rem;
+    justify-content: center;
+    justify-items: center;
+}
+.html_p {
+    color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    
+    margin-left: 0;
+    margin-top: 0.45rem;
+}
+.css_circle {
+    background-color: transparent;
+    border-color: #ddd7c5;
+    border-style: solid;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    border-radius: 100%;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+
+}
+.css_value { 
+    color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 50%;
+    position: relative;
+    transform: translateY(-140%);
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.css_p {
+    color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.45rem;
+    margin-left: 0rem;
+    margin-top: 0.4rem;
+}
+.circles {
     display: grid;
-  grid-template-columns: repeat(2, 0fr);
-  }
+  grid-template-columns: repeat(3, 1fr);
+}
+.javascript_circle {
+    background-color: transparent;
+    border-color: #ddd7c5;
+    border-style: solid;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0rem;
+    border-radius: 100%;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+
+}
+.javascript_value { 
+  color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 50%;
+    position: relative;
+    transform: translateY(-140%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.javascript_p {
+   color: #ddf1dd;;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.4rem;
+    margin-left: 0rem;
+    margin-top: 0.4rem;
+}
+.circles {
+    gap: 0rem;
+}
+.php {
+    margin-top: -1rem;
+}
+.php_circle {
+    background-color: transparent;
+    border-color: #ddd7c5;
+    border-style: solid;
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    border-radius: 100%;
+    vertical-align: middle;
+    position: relative;
+    text-align: center;
+
+}
+.php_value { 
+    color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 50%;
+    position: relative;
+    transform: translateY(-140%);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.php_p {
+    color: #ddf1dd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.45rem;
+
+    margin-top: 0.2rem;
 }
 .projects_p {
+    color: white;
+    margin-left: 31rem;
+    position: relative;
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.project {
+    position: relative;
+    width: 24.5rem;
+    height: 13rem;    background-color: #373b41;
+    margin-left: 0rem;
+}
+.project:hover {
+    transform: scale(1);
+}
+.flex {   
+     margin-left: 0;
+    display: grid;
+    justify-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  grid-row: 5rem;
+position: relative;
     
-    margin-top: 1.5rem;
-    font-size: 3.5rem;
-    margin-left: 13rem;
 }
-@media only screen and (max-width: 1104px) {
-    .flex {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin: 0;
-        justify-self: center;
-        left: -15%;
     }
-    .project {
-        margin-bottom: 1rem;
-    }
+    @media only screen and (max-width: 767px) {
+.project_text1 {
+    position: relative;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    height: 2.5rem;
+    z-index: 2;
+    background-color: rgb(49, 49, 49);
+    margin-top: 9rem;
 }
-@media only screen and (max-width: 968px) {
-    .flex {
-    left: -20%;
-    }
+.project_image {
+    width: 100%;
+    z-index: 1;
+    position: absolute;
 }
-
-@media only screen and (max-width: 828px) {
-    .flex {
-    left: -25%;
     }
-}
-
-@media only screen and (max-width: 618px) {
-    .flex {
-    left: -30%;
-    }
-    .projects_p {
-    font-size: 3.2rem;
-    margin-left: 10rem;
-}
-.fa-solid {
-    font-size: 4rem;
-}
-}
-@media only screen and (max-width: 583px) {
-    .flex {
-    left: -32%;
-    }
-}
-@media only screen and (max-width: 514px) {
-    .flex {
-    left: -33%;
-    }
-    .project {
-        width: 23rem;
-    }
-}
-
-@media only screen and (max-width: 505px) {
-    .flex {
-    left: -35%;
-    }
-    .project {
-        width: 20rem;
-    }
-}
-
-@media only screen and (max-width: 453px) {
-    .flex {
-    left: -36%;
-    }
-    .project {
-        width: 95%;
-    }
-}
-
-@media only screen and (max-width: 381px) {
-    .flex {
-    left: -37%;
-    }
-    .project {
-        width: 90%;
-    }
-}
