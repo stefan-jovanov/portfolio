@@ -233,10 +233,10 @@ body::-webkit-scrollbar {
 .project {
     width: 25rem;
     height: 12rem;
-    overflow: visible;
+    overflow: hidden;
 }
 .project:hover {
-    transform: scale(1.1);
+    
 }
 img {
     width: 100%;
@@ -249,15 +249,26 @@ img {
     flex: auto;
     display: flex;
 }
+.project:hover .project_text1 {
+    bottom: 0;
+}
 .project_text1 {
-    
+      position: absolute;
+      bottom: -100%;  /* hidden below */
+      left: 0;
+      width: 100%;
+      
+      text-align: left;
+      padding: 15px;
+      transition: bottom 0.4s ease;
+
     color: white;
     background-color: #373b41;
     width: 100%;
     font-size: 1.5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
     margin-top: -3rem;
     position: relative;
 }
@@ -327,6 +338,7 @@ margin-top: -2.25rem;
 .br {
     display: none;
 }
+    
 @media only screen and (max-width: 1386px) {
         footer {
         margin: 0;
